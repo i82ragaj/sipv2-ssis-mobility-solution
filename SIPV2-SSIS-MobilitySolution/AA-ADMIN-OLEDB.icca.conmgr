@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="AA-ADMIN-OLEDB icca"
+  DTS:DTSID="{7B2C1FE8-24AC-41FC-9BCF-5351174937C0}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=192.168.100.73;User ID=ssisuser;Initial Catalog=AA-ADMIN;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-{7B2C1FE8-24AC-41FC-9BCF-5351174937C0}ALLPK DB-OLEDB.icca;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1"
+        p4:Salt="848jixLg3IY="
+        p4:IV="S2Vnos+c+zDgkMuJEww/ww=="
+        p4:Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" xmlns:p4="www.microsoft.com/SqlServer/SSIS">4hyNY9LsAKIgQdrxG2uR97KP50OtjtotezmqTdTk40vvYik/va2vXT2xiJ4hvvsYLEQlva7nAI25Q+tkd43HbgBiJSVWieKdiwgoIVWEVadIIHmmIgjPop3M/4zGgjUaNJRP2/otJaLhR54wrmyQC2TBpCehZmPlabl7/8J6Pts=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
